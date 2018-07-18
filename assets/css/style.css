@@ -146,7 +146,6 @@ body {
 }
 
 .slider_container > ul > li {
-  width: 100%;
   height: 800px;
   overflow: hidden;
 }
@@ -157,8 +156,91 @@ body {
 }
 
 .slider_container > ul > li .slider-content {
-  position: absolute;
-  top: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0 70px;
+  margin-top: -620px;
+}
+
+.slider_container > ul > li .slider-content > div {
+  width: calc(50% - 20px);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 25px 10px;
+  text-align: left;
+  color: white;
+  line-height: 38px;
+}
+
+.slider_container > ul > li .slider-content > div hr {
+  border: 1px solid white;
+  width: 99px;
+  margin-left: -1px;
+}
+
+.slider_container > ul > li .slider-content > div ul {
+  list-style-type: none;
+  list-style-position: inside;
+  padding: 0px;
+}
+
+.slider_container > ul > li .slider-content > div ul li span {
+  font-size: larger;
+  margin-left: 10px;
+}
+
+.slider_container > ul > li .slider-content > div .slider-button {
+  padding: 20px 0;
+}
+
+.slider_container > ul > li .slider-content > div .slider-button a {
+  color: white;
+  background-color: #333333;
+  border-radius: 3px;
+  padding: 10px 20px;
+  border: none;
+}
+
+.slider_container > ul > li .slider-content > div .slider-button a:hover, .slider_container > ul > li .slider-content > div .slider-button a :focus {
+  -webkit-animation: pulse 0.8s;
+          animation: pulse 0.8s;
+  -webkit-box-shadow: 0 0 10px 2em rgba(255, 255, 255, 0);
+          box-shadow: 0 0 10px 2em rgba(255, 255, 255, 0);
+  color: #ed474a;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 #ed474a;
+            box-shadow: 0 0 0 0 #ed474a;
+    color: white;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 #ed474a;
+            box-shadow: 0 0 0 0 #ed474a;
+    color: white;
+  }
+}
+
+.slider_container > ul > li .slider-content > div img {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
 }
 
 body {
@@ -179,7 +261,6 @@ body {
 }
 
 .slider_container > ul > li {
-  width: 100%;
   height: 800px;
   overflow: hidden;
 }
@@ -190,7 +271,82 @@ body {
 }
 
 .slider_container > ul > li .slider-content {
-  position: absolute;
-  top: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0 70px;
+  margin-top: -620px;
+}
+
+.slider_container > ul > li .slider-content > div {
+  width: calc(50% - 20px);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 25px 10px;
+  text-align: left;
+  color: white;
+  line-height: 38px;
+}
+
+.slider_container > ul > li .slider-content > div hr {
+  border: 1px solid white;
+  width: 99px;
+  margin-left: -1px;
+}
+
+.slider_container > ul > li .slider-content > div ul {
+  list-style-type: none;
+  list-style-position: inside;
+  padding: 0px;
+}
+
+.slider_container > ul > li .slider-content > div ul li span {
+  font-size: larger;
+  margin-left: 10px;
+}
+
+.slider_container > ul > li .slider-content > div .slider-button {
+  padding: 20px 0;
+}
+
+.slider_container > ul > li .slider-content > div .slider-button a {
+  color: white;
+  background-color: #333333;
+  border-radius: 3px;
+  padding: 10px 20px;
+  border: none;
+}
+
+.slider_container > ul > li .slider-content > div .slider-button a:hover, .slider_container > ul > li .slider-content > div .slider-button a :focus {
+  -webkit-animation: pulse 0.8s;
+          animation: pulse 0.8s;
+  -webkit-box-shadow: 0 0 10px 2em rgba(255, 255, 255, 0);
+          box-shadow: 0 0 10px 2em rgba(255, 255, 255, 0);
+  color: #ed474a;
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 #ed474a;
+            box-shadow: 0 0 0 0 #ed474a;
+    color: white;
+  }
+}
+
+.slider_container > ul > li .slider-content > div img {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
 }
 /*# sourceMappingURL=style.css.map */

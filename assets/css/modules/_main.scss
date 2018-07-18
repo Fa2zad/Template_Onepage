@@ -21,7 +21,6 @@ body{
         list-style-type: none;
         padding: 0px;
         >li{
-            width: 100%;
             height: 800px;
             overflow: hidden;
             img.slider-background{
@@ -29,9 +28,78 @@ body{
                 width: 100%;
             }
             .slider-content{
-                position: absolute;
-                top: 200px;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                padding: 0 70px;
+                margin-top: -620px;
+
+                >div{ 
+                    
+                    width: calc(50% - 20px);  
+                    justify-content: center;
+                    flex-direction: column;
+                    margin: 25px 10px;
+                    text-align: left;
+                    color: white;
+                    line-height: 38px;
+                    hr{
+                        border: 1px solid white;
+                        width: 99px;
+                        margin-left: -1px;
+                        
+                    }
+                    ul {
+                        list-style-type: none;
+                        list-style-position: inside;
+                        padding: 0px;
+                        li{
+                            span{
+                                font-size: larger;
+                                margin-left: 10px;
+                            }
+                        }
+                        
+                    
+                    }
+                    .slider-button{
+                        padding: 20px 0;
+                        a{
+                            color: white;
+                            background-color: #333333;
+                            border-radius: 3px;
+                            padding: 10px 20px;
+                            border: none;
+                            &:hover, :focus{
+                                // -webkit-transition: 0.5s easeInSine;
+                                // -moz-transition: 0.5s easeInSine;
+                                // transition: 0.5s easeInSine;
+                                // transition-property: box-shadow, backround-color;
+                                // box-shadow: inset 0px -50px 0px 30px rgb(255, 0, 149);
+                                
+                                animation: pulse 0.8s;
+                                box-shadow: 0 0 10px 2em rgba(#fff,0);
+                                color: $hoverButtonColor;
+                                
+                                
+                            }
+                            @keyframes pulse {
+                                0% {
+                                    box-shadow: 0 0 0 0 $hoverButtonColor;
+                                    color: white;
+                                }
+                            }
+                        }
+                    }
+                    img{
+                        width: max-content;
+                    }
+                }
             }
+
+
+
+
 
         
         }
