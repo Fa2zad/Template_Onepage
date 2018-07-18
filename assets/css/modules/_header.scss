@@ -1,0 +1,124 @@
+//-----------------------------------//
+//               Header              //
+//        called by style.scss       //
+//-----------------------------------//
+.header__container{
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    display: inline-block;
+    z-index: 100;
+   nav{
+       background-color: #ffffff;
+       height: 120px;
+       padding: 24px 0px;
+       border-radius: 0px;
+   }
+   //logo
+    .header-logo{
+        float: right;
+        margin-right: 18px;
+        button{
+            span{
+                background-color: $regularColor;
+            }
+        }
+    }
+    .header-collapse{
+        padding: 0px;
+    }
+    //search
+    .header-search{
+        float: left;
+        a{
+            color: $regularColor;
+            display: inline-block;
+            padding: 15px 15px;
+            text-align: center;
+            margin-top: 2px;
+            
+            &:hover{
+                span{
+                    color: #ed474a;
+                }
+            }
+        }
+
+        form{
+            padding: 0px;
+            input{
+                width: 0px;
+                opacity: 0;
+                padding: 0px; //default 8px 12px;
+            }
+        }
+    }
+    //menu
+    .header-menu{
+        margin-top: 10px;
+
+        ul{
+            padding: 0px;
+            li{
+                float: right;
+            
+                a{
+                    color: $regularColor;
+                    span{
+                        padding-bottom: 2px;
+                    }
+                    &:hover{
+                        background-color: unset;
+                        span{
+                            color: #ed474a;
+                            border-bottom: 2px solid #ed474a;
+                        }
+                    }
+                
+                }
+
+                &.active{
+                    a{
+                        
+                        span{
+                            color: #ed474a;
+                            border-bottom: 2px solid #ed474a;
+
+                        }
+                    }
+                }
+
+                &.menu-divider{
+                    height: 20px;                   /* any height */
+                    border-left: 1px solid $regularColor;     /* right or left is the same */
+                    float: left;                     /* so BS grid doesn't break */
+                    margin: 15px 15px;             
+                }
+            }//li
+        }//ul
+    } //.header-menu
+
+    .header-user{
+        float: left;
+        ul{
+            padding: 0px;
+            a{
+                color: $regularColor;
+                display: inline-block;
+                padding: 15px 15px;
+                text-align: center;
+                margin-top: 10px;
+                
+                &:hover{
+                    span{
+                        
+                        color: #ed474a;
+                    }
+                }
+                &:hover{
+                    background-color: unset;
+                }
+            }
+        }
+    }
+}

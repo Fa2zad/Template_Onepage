@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fa-IR">
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,21 +8,162 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    
+
 </head>
+
 <body>
-    
+
     <header class="header__container">
         <div class="container">
-            <row>
-                <col-xs-12>header</col-xs-12>
-            </row>
+            <div class="row">
+                <div class="col-xs-12">
+
+                    <nav class="navbar">
+                        <!-- LOGO -->
+                        <div class="header-logo">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainMenu" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a href="#">
+                                    <img src="assets/images/logo.png" alt="Brand name">
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- COLLAPSIBLE NAVBAR -->
+                        <div class="collapse navbar-collapse header-collapse" id="mainMenu">
+
+
+                            <!-- Search -->
+                            <div class="header-search">
+
+                                <form class="navbar-form navbar-right" role="search">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <a href="#">
+                                        <span class="glyphicon glyphicon-search"></span>
+                                    </a>
+                                </form>
+
+                            </div>
+
+                            <!-- User -->
+                            <div class="header-user">
+                                <ul class="nav navbar-nav">
+                                    <li>
+                                        <a href="#">
+                                            <span class="glyphicon glyphicon-user"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                            </span>
+                            <!-- Links -->
+                            <div class="header-menu">
+                                <ul class="nav navbar-nav">
+                                    <li>
+                                        <a href="#">
+                                            <span>خانه</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>پیش نمایش 24</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>پیش نمایش 26</span>
+                                        </a>
+                                    </li>
+                                    <li class="active">
+                                        <a href="#">
+                                            <span>پیش نمایش 33</span>
+                                        </a>
+                                    </li>
+                                    <li role="separator" class="menu-divider">
+                                    </li>
+                                </ul>
+
+
+                            </div>
+
+
+
+                        </div>
+                    </nav>
+
+                </div>
+            </div>
         </div>
     </header>
 
     <main class="main__container">
-        <div class="container-fluid"></div>
+
+        <section class="slider_container">
+            <ul>
+                <li class="active">
+                    <img class="slider-background" src="assets/images/slidebg1.jpg" alt="">
+                    <div class="container">
+                        <div class="row">
+                            <div class="slider-content">
+                                <div class="col-sm-6">
+                                    <img src="assets/images/img1.png" alt="">
+                                </div>
+                                <div class="col-sm-6">
+                                    <h3>سازگار با</h3>
+                                    <h2>تمامی مرورگرها</h2>
+                                    <hr />
+                                    <ul>
+                                        <li>توسعه دهندگان با تجربه و طراحان خلاق</li>
+                                        <li>هدف ما ارائه خدمات به بهترین شکل ممکن برای شما است</li>
+                                        <li>توسعه ی راهکارهای مناسب برای تجارت شما</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+
+                            <!-- <figure>
+                                <div class="col-sm-6">
+                                    <img src="assets/images/img1.png" alt="">
+                                </div>
+                                <div class="col-sm-6">
+                                    <figcaption>
+                                        <h3>سازگار با</h3>
+                                        <h2>تمامی مرورگرها</h2>
+                                        <hr />
+                                        <ul>
+                                            <li>توسعه دهندگان با تجربه و طراحان خلاق</li>
+                                            <li>هدف ما ارائه خدمات به بهترین شکل ممکن برای شما است</li>
+                                            <li>توسعه ی راهکارهای مناسب برای تجارت شما</li>
+                                        </ul>
+                                    </figcaption>
+                                </div>
+                            </figure> -->
+                        </div>
+                    </div>
+
+                </li>
+                <li></li>
+                <li></li>
+            </ul>
+
+        </section>
+
     </main>
+
+    <footer class="container__footer">
+
+        footer
+
+    </footer>
 
 
 
@@ -30,4 +172,5 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/scripts.js"></script>
 </body>
+
 </html>
