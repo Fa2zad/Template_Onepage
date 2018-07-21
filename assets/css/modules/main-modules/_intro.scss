@@ -18,11 +18,11 @@
         
         div{
             background-color: #efefef;
-            width: 200px;
-            height: 200px;
+            width: 150px;
+            height: 150px;
             display: inline-block;
             border-radius: 50%;
-            padding-top: 21%;
+            padding-top: 50px;
             transition-duration: 500ms;
 
             img{
@@ -30,7 +30,7 @@
                 transition-duration: 1000ms;
             }
             &:hover{
-                box-shadow: inset 0px 0px 0px 100px lighten($linkColor, 20%);
+                box-shadow: inset 0px 0px 0px 75px lighten($linkColor, 20%);
                 img{
                     transform: rotateY(360deg); 
                 }
@@ -38,13 +38,15 @@
         }
         
         figcaption{
-            margin-top: 57px;
+            margin-top: 40px;
             hr{
                 width: 40px;
                 border-top: 2px solid #343434;
+                margin-top: 10px;
             }
             p{
-                line-height: 24px;
+                line-height: 23px;
+                font-size: 13px;
             }
             
         }

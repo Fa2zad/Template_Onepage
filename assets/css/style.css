@@ -349,11 +349,11 @@ body h1 small, body h2 small, body h3 small, body h4 small, body h5 small, body 
 
 .intro__container figure div {
   background-color: #efefef;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   display: inline-block;
   border-radius: 50%;
-  padding-top: 21%;
+  padding-top: 50px;
   -webkit-transition-duration: 500ms;
           transition-duration: 500ms;
 }
@@ -365,8 +365,8 @@ body h1 small, body h2 small, body h3 small, body h4 small, body h5 small, body 
 }
 
 .intro__container figure div:hover {
-  -webkit-box-shadow: inset 0px 0px 0px 100px #f6a4a5;
-          box-shadow: inset 0px 0px 0px 100px #f6a4a5;
+  -webkit-box-shadow: inset 0px 0px 0px 75px #f6a4a5;
+          box-shadow: inset 0px 0px 0px 75px #f6a4a5;
 }
 
 .intro__container figure div:hover img {
@@ -375,16 +375,18 @@ body h1 small, body h2 small, body h3 small, body h4 small, body h5 small, body 
 }
 
 .intro__container figure figcaption {
-  margin-top: 57px;
+  margin-top: 40px;
 }
 
 .intro__container figure figcaption hr {
   width: 40px;
   border-top: 2px solid #343434;
+  margin-top: 10px;
 }
 
 .intro__container figure figcaption p {
-  line-height: 24px;
+  line-height: 23px;
+  font-size: 13px;
 }
 
 .contentslider__container {
@@ -694,11 +696,11 @@ body h1 small, body h2 small, body h3 small, body h4 small, body h5 small, body 
 
 .intro__container figure div {
   background-color: #efefef;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   display: inline-block;
   border-radius: 50%;
-  padding-top: 21%;
+  padding-top: 50px;
   -webkit-transition-duration: 500ms;
           transition-duration: 500ms;
 }
@@ -710,8 +712,8 @@ body h1 small, body h2 small, body h3 small, body h4 small, body h5 small, body 
 }
 
 .intro__container figure div:hover {
-  -webkit-box-shadow: inset 0px 0px 0px 100px #f6a4a5;
-          box-shadow: inset 0px 0px 0px 100px #f6a4a5;
+  -webkit-box-shadow: inset 0px 0px 0px 75px #f6a4a5;
+          box-shadow: inset 0px 0px 0px 75px #f6a4a5;
 }
 
 .intro__container figure div:hover img {
@@ -720,16 +722,18 @@ body h1 small, body h2 small, body h3 small, body h4 small, body h5 small, body 
 }
 
 .intro__container figure figcaption {
-  margin-top: 57px;
+  margin-top: 40px;
 }
 
 .intro__container figure figcaption hr {
   width: 40px;
   border-top: 2px solid #343434;
+  margin-top: 10px;
 }
 
 .intro__container figure figcaption p {
-  line-height: 24px;
+  line-height: 23px;
+  font-size: 13px;
 }
 
 .contentslider__container {
