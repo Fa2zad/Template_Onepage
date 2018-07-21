@@ -154,7 +154,7 @@ body a {
 body a:hover {
   color: #f27578;
   text-decoration: none;
-  text-shadow: 0px 0px 2px #bc1215;
+  text-shadow: 0px 1px 0px #bc1215;
 }
 
 body .theme-button {
@@ -230,6 +230,18 @@ body .theme-button-colored a:hover, body .theme-button-colored a :focus {
   }
 }
 
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  position: relative;
+  color: #3e4041;
+}
+
+body h1 small, body h2 small, body h3 small, body h4 small, body h5 small, body h6 small {
+  position: absolute;
+  top: -135%;
+  left: 0;
+  right: 0;
+}
+
 .slider_container {
   background-color: #c57373;
   height: 800px;
@@ -240,6 +252,7 @@ body .theme-button-colored a:hover, body .theme-button-colored a :focus {
   width: 80%;
   background: rgba(255, 255, 255, 0.5);
   position: absolute;
+  z-index: 1;
 }
 
 .slider_container > ul {
@@ -294,11 +307,16 @@ body .theme-button-colored a:hover, body .theme-button-colored a :focus {
   text-align: left;
   color: white;
   line-height: 38px;
-  padding-top: 22px;
+  padding-top: 65px;
 }
 
 .slider_container > ul > li .slider-content .slider-caption h2 {
   font-size: 38px;
+  color: white;
+}
+
+.slider_container > ul > li .slider-content .slider-caption h2 small {
+  color: white;
 }
 
 .slider_container > ul > li .slider-content .slider-caption hr {
@@ -355,7 +373,7 @@ body .theme-button-colored a:hover, body .theme-button-colored a :focus {
 }
 
 .intro__container figure figcaption {
-  margin-top: 27px;
+  margin-top: 57px;
 }
 
 .intro__container figure figcaption hr {
@@ -454,10 +472,6 @@ body .theme-button-colored a:hover, body .theme-button-colored a :focus {
   padding: 20px 21% 20px 8%;
 }
 
-.contentslider__container ul li .contentslider-text > div h3 {
-  color: #3e4041;
-}
-
 .contentslider__container ul li .contentslider-text > div hr {
   margin-right: 0px;
   margin-top: 10px;
@@ -492,7 +506,7 @@ body a {
 body a:hover {
   color: #f27578;
   text-decoration: none;
-  text-shadow: 0px 0px 2px #bc1215;
+  text-shadow: 0px 1px 0px #bc1215;
 }
 
 body .theme-button {
@@ -561,6 +575,18 @@ body .theme-button-colored a:hover, body .theme-button-colored a :focus {
   }
 }
 
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  position: relative;
+  color: #3e4041;
+}
+
+body h1 small, body h2 small, body h3 small, body h4 small, body h5 small, body h6 small {
+  position: absolute;
+  top: -135%;
+  left: 0;
+  right: 0;
+}
+
 .slider_container {
   background-color: #c57373;
   height: 800px;
@@ -571,6 +597,7 @@ body .theme-button-colored a:hover, body .theme-button-colored a :focus {
   width: 80%;
   background: rgba(255, 255, 255, 0.5);
   position: absolute;
+  z-index: 1;
 }
 
 .slider_container > ul {
@@ -625,11 +652,16 @@ body .theme-button-colored a:hover, body .theme-button-colored a :focus {
   text-align: left;
   color: white;
   line-height: 38px;
-  padding-top: 22px;
+  padding-top: 65px;
 }
 
 .slider_container > ul > li .slider-content .slider-caption h2 {
   font-size: 38px;
+  color: white;
+}
+
+.slider_container > ul > li .slider-content .slider-caption h2 small {
+  color: white;
 }
 
 .slider_container > ul > li .slider-content .slider-caption hr {
@@ -686,7 +718,7 @@ body .theme-button-colored a:hover, body .theme-button-colored a :focus {
 }
 
 .intro__container figure figcaption {
-  margin-top: 27px;
+  margin-top: 57px;
 }
 
 .intro__container figure figcaption hr {
@@ -783,10 +815,6 @@ body .theme-button-colored a:hover, body .theme-button-colored a :focus {
   z-index: 1;
   width: 100%;
   padding: 20px 21% 20px 8%;
-}
-
-.contentslider__container ul li .contentslider-text > div h3 {
-  color: #3e4041;
 }
 
 .contentslider__container ul li .contentslider-text > div hr {
