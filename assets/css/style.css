@@ -22,8 +22,8 @@
 }
 
 .header__container .header-logo {
-  float: right;
-  margin-right: 18px;
+  float: left;
+  margin-left: 18px;
 }
 
 .header__container .header-logo button span {
@@ -35,7 +35,7 @@
 }
 
 .header__container .header-search {
-  float: left;
+  float: right;
 }
 
 .header__container .header-search a {
@@ -57,6 +57,7 @@
 
 .header__container .header-search form {
   padding: 0px;
+  margin-right: 0;
 }
 
 .header__container .header-search form input {
@@ -67,6 +68,7 @@
 
 .header__container .header-menu {
   margin-top: 10px;
+  float: right;
 }
 
 .header__container .header-menu ul {
@@ -105,13 +107,13 @@
   /* any height */
   border-left: 1px solid #5e5e5e;
   /* right or left is the same */
-  float: left;
+  float: right;
   /* so BS grid doesn't break */
   margin: 15px 15px;
 }
 
 .header__container .header-user {
-  float: left;
+  float: right;
 }
 
 .header__container .header-user ul {
@@ -242,12 +244,12 @@ body h1 small, body h2 small, body h3 small, body h4 small, body h5 small, body 
   right: 0;
 }
 
-.slider_container {
+.slider__container {
   background-color: #c57373;
   height: 800px;
 }
 
-.slider_container .slider-bar {
+.slider__container .slider-bar {
   height: 5px;
   width: 80%;
   background: rgba(255, 255, 255, 0.5);
@@ -255,23 +257,23 @@ body h1 small, body h2 small, body h3 small, body h4 small, body h5 small, body 
   z-index: 1;
 }
 
-.slider_container > ul {
+.slider__container > ul {
   list-style-type: none;
   padding: 0px;
 }
 
-.slider_container > ul > li {
+.slider__container > ul > li {
   height: 800px;
   overflow: hidden;
   position: absolute;
 }
 
-.slider_container > ul > li img.slider-background {
+.slider__container > ul > li img.slider-background {
   height: 100%;
   width: 100%;
 }
 
-.slider_container > ul > li .slider-content {
+.slider__container > ul > li .slider-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -285,7 +287,7 @@ body h1 small, body h2 small, body h3 small, body h4 small, body h5 small, body 
   margin-top: -610px;
 }
 
-.slider_container > ul > li .slider-content > div {
+.slider__container > ul > li .slider-content > div {
   width: calc(50% - 20px);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -297,48 +299,48 @@ body h1 small, body h2 small, body h3 small, body h4 small, body h5 small, body 
   margin: 25px 10px;
 }
 
-.slider_container > ul > li .slider-content > div img {
+.slider__container > ul > li .slider-content > div img {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
 }
 
-.slider_container > ul > li .slider-content .slider-caption {
+.slider__container > ul > li .slider-content .slider-caption {
   text-align: left;
   color: white;
   line-height: 38px;
   padding-top: 65px;
 }
 
-.slider_container > ul > li .slider-content .slider-caption h2 {
+.slider__container > ul > li .slider-content .slider-caption h2 {
   font-size: 38px;
   color: white;
 }
 
-.slider_container > ul > li .slider-content .slider-caption h2 small {
+.slider__container > ul > li .slider-content .slider-caption h2 small {
   color: white;
 }
 
-.slider_container > ul > li .slider-content .slider-caption hr {
+.slider__container > ul > li .slider-content .slider-caption hr {
   border: 1px solid white;
   width: 99px;
   margin-left: -1px;
 }
 
-.slider_container > ul > li .slider-content .slider-caption ul {
+.slider__container > ul > li .slider-content .slider-caption ul {
   list-style-type: none;
   list-style-position: inside;
   padding: 0px;
   margin-bottom: 26px;
 }
 
-.slider_container > ul > li .slider-content .slider-caption ul li span {
+.slider__container > ul > li .slider-content .slider-caption ul li span {
   font-size: 20px;
   margin-left: 10px;
 }
 
 .intro__container {
-  padding: 60px;
+  padding: 20px;
 }
 
 .intro__container .row > div {
@@ -587,12 +589,12 @@ body h1 small, body h2 small, body h3 small, body h4 small, body h5 small, body 
   right: 0;
 }
 
-.slider_container {
+.slider__container {
   background-color: #c57373;
   height: 800px;
 }
 
-.slider_container .slider-bar {
+.slider__container .slider-bar {
   height: 5px;
   width: 80%;
   background: rgba(255, 255, 255, 0.5);
@@ -600,23 +602,23 @@ body h1 small, body h2 small, body h3 small, body h4 small, body h5 small, body 
   z-index: 1;
 }
 
-.slider_container > ul {
+.slider__container > ul {
   list-style-type: none;
   padding: 0px;
 }
 
-.slider_container > ul > li {
+.slider__container > ul > li {
   height: 800px;
   overflow: hidden;
   position: absolute;
 }
 
-.slider_container > ul > li img.slider-background {
+.slider__container > ul > li img.slider-background {
   height: 100%;
   width: 100%;
 }
 
-.slider_container > ul > li .slider-content {
+.slider__container > ul > li .slider-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -630,7 +632,7 @@ body h1 small, body h2 small, body h3 small, body h4 small, body h5 small, body 
   margin-top: -610px;
 }
 
-.slider_container > ul > li .slider-content > div {
+.slider__container > ul > li .slider-content > div {
   width: calc(50% - 20px);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -642,48 +644,48 @@ body h1 small, body h2 small, body h3 small, body h4 small, body h5 small, body 
   margin: 25px 10px;
 }
 
-.slider_container > ul > li .slider-content > div img {
+.slider__container > ul > li .slider-content > div img {
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
 }
 
-.slider_container > ul > li .slider-content .slider-caption {
+.slider__container > ul > li .slider-content .slider-caption {
   text-align: left;
   color: white;
   line-height: 38px;
   padding-top: 65px;
 }
 
-.slider_container > ul > li .slider-content .slider-caption h2 {
+.slider__container > ul > li .slider-content .slider-caption h2 {
   font-size: 38px;
   color: white;
 }
 
-.slider_container > ul > li .slider-content .slider-caption h2 small {
+.slider__container > ul > li .slider-content .slider-caption h2 small {
   color: white;
 }
 
-.slider_container > ul > li .slider-content .slider-caption hr {
+.slider__container > ul > li .slider-content .slider-caption hr {
   border: 1px solid white;
   width: 99px;
   margin-left: -1px;
 }
 
-.slider_container > ul > li .slider-content .slider-caption ul {
+.slider__container > ul > li .slider-content .slider-caption ul {
   list-style-type: none;
   list-style-position: inside;
   padding: 0px;
   margin-bottom: 26px;
 }
 
-.slider_container > ul > li .slider-content .slider-caption ul li span {
+.slider__container > ul > li .slider-content .slider-caption ul li span {
   font-size: 20px;
   margin-left: 10px;
 }
 
 .intro__container {
-  padding: 60px;
+  padding: 20px;
 }
 
 .intro__container .row > div {
