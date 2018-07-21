@@ -33,17 +33,45 @@ body{
             border-radius: 3px;
             padding: 12px 26px;
             border: none;
+            &:visited, :active{
+                color: white;
+                text-decoration: none;
+            }
+            &:hover, :focus{
+                animation: pulse 0.8s;
+                box-shadow: 0 0 10px 30px rgba(#fff,0);
+                background-color: $buttonColor;
+                text-decoration: none;
+
+            }
+            @keyframes pulse {
+                0% {
+                    box-shadow: 0 0 0 0 $buttonColor;
+                }
+            }
+        }
+    }
+
+    .theme-button-colored{ 
+        padding: 20px 0;
+        a{
+            color: white;
+            font-size: 13px;
+            background-color: $buttonColor;
+            border-radius: 3px;
+            padding: 12px 26px;
+            border: none;
             &:visited{
                 color: white;
             }
             &:hover, :focus{
                 animation: pulse 0.8s;
                 box-shadow: 0 0 10px 30px rgba(#fff,0);
-                background-color: $hoverButtonColor;
+                background-color: #333333;
             }
             @keyframes pulse {
                 0% {
-                    box-shadow: 0 0 0 0 $hoverButtonColor;
+                    box-shadow: 0 0 0 0 $buttonColor;
                 }
             }
         }
@@ -59,3 +87,8 @@ body{
 //               intro               //
 //-----------------------------------//
 @import "main-modules/intro";
+
+//-----------------------------------//
+//         contentslider             //
+//-----------------------------------//
+@import "main-modules/contentslider";

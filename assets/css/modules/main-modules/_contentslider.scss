@@ -1,0 +1,80 @@
+//-----------------------------------//
+//               intro               //
+//       Called by _main.scss        //
+//-----------------------------------//
+.contentslider__container{
+    width: 100%;
+    ul{
+        list-style-type: none;
+        padding: 0px;
+        position: relative;
+        
+        li{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            width: 100%;
+            position: absolute;
+            overflow: hidden;
+            
+            .contentslider-image{
+                display: flex; 
+                width: calc(50%);  
+                justify-content: center;
+                flex-direction: column;
+            }
+            .contentslider-text{
+                display: flex; 
+                width: calc(50%);  
+                justify-content: center;
+                flex-direction: column;
+                background-color: #eeeeee;
+                box-shadow: -3px 0px 12px 0px rgba(0, 0, 0, 0.6);
+                position: relative;
+                .contentslider-triangleshadow {
+                    position: absolute;
+                    width: 0;
+                    height: 0;
+                    top: 85px;
+                    right: -10px;
+                    border: 10px solid #eeeeee;
+                    transform: rotate(45deg);
+                    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.6);;
+                }
+                .contentslider-triangle {
+                    position: absolute;
+                    width: 0;
+                    height: 0;
+                    top: 75px;
+                    right: -9px;
+                    border: 20px solid #eeeeee;
+                    transform: rotate(45deg);
+                }
+                >div{
+                    z-index: 1;
+                    width: 100%;
+                
+                    padding: 20px 21% 20px 8%;
+                    h3{
+                        color: #3e4041;
+                    }
+                    hr{
+                        margin-right: 0px;
+                        margin-top: 10px;
+                        margin-bottom: 20px;
+                        border-top: 2px solid $themeColor;
+                        width: 40px;
+                    }
+                    p{
+                        line-height: 30px;
+                        font-size: 13px;                        
+                    }
+                    .theme-button a, .theme-button-colored a{
+                        padding: 15px 30px;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
