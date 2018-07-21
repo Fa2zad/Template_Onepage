@@ -7,111 +7,55 @@ body{
     font-size: $regularSize;
     font-family: $regularFont;
     direction: rtl;
+    
+    a{
+        color: $themeColor;
+        transition-duration: 200ms;
+
+        &:hover{
+            color: lighten($themeColor, 10%);
+            text-decoration: none;
+            text-shadow: 0px 0px 2px darken($themeColor, 20%);
+        }
+    }
+
+
+    //theme button sample
+    //<div class="theme-button">
+    //<a href="#" class="btn">ارسال تیکت</a>
+    //</div>
+    .theme-button{ 
+        padding: 20px 0;
+        a{
+            color: white;
+            font-size: 13px;
+            background-color: #333333;
+            border-radius: 3px;
+            padding: 12px 26px;
+            border: none;
+            &:hover, :focus, :active{
+                animation: pulse 0.8s;
+                box-shadow: 0 0 10px 30px rgba(#fff,0);
+                background-color: $hoverButtonColor;
+                color: white;
+            }
+            @keyframes pulse {
+                0% {
+                    box-shadow: 0 0 0 0 $hoverButtonColor;
+                color: white;
+
+                }
+            }
+        }
+    }
 }
 
 //-----------------------------------//
 //               Slider              //
 //-----------------------------------//
-.slider_container{
-    background-color: #c57373;
-    height: 800px;
+@import "main-modules/slider";
 
-    .slider-bar{
-        height: 5px;
-        width: 80%;
-        background: rgba(#fff, 0.5);
-        position: absolute;
-    }
-
-    >ul{
-        list-style-type: none;
-        padding: 0px;
-        >li{
-            height: 800px;
-            overflow: hidden;
-            img.slider-background{
-                height: 100%;
-                width: 100%;
-            }
-            .slider-content{
-                display: flex;
-                flex-wrap: wrap;
-                flex-direction: row;
-                padding: 0 90px;
-                margin-top: -610px;
-
-                >div{
-                    width: calc(50% - 20px);
-                    justify-content: center;
-                    flex-direction: column;
-                    margin: 25px 10px;
-                    img{
-                        width: max-content;
-                    }
-
-                }
-                .slider-caption{
-                    text-align: left;
-                    color: white;
-                    line-height: 38px;
-                    padding-top: 22px;
-                    h2{
-                        font-size: 38px;
-                    }
-                    hr{
-                        border: 1px solid white;
-                        width: 99px;
-                        margin-left: -1px;
-                        
-                    }
-
-                    ul {
-                        list-style-type: none;
-                        list-style-position: inside;
-                        padding: 0px;
-                        li{
-                            span{
-                                font-size: 20px;
-                                margin-left: 10px;
-                            }
-                        }
-                    }
-
-                    .slider-button{
-                        padding: 20px 0;
-                        a{
-                            color: white;
-                            font-size: 13px;
-                            background-color: #333333;
-                            border-radius: 3px;
-                            padding: 12px 26px;
-                            border: none;
-                            &:hover, :focus{
-                                animation: pulse 0.8s;
-                                box-shadow: 0 0 10px 30px rgba(#fff,0);
-                                background-color: $hoverButtonColor;
-                            }
-                            @keyframes pulse {
-                                0% {
-                                    box-shadow: 0 0 0 0 $hoverButtonColor;
-                                }
-                            }
-                        }
-                    }
-                }
-                    
-                    
-                    
-                    
-                    
-                
-            }
-
-
-
-
-
-        
-        }
-    }
-}
+//-----------------------------------//
+//               intro               //
+//-----------------------------------//
+@import "main-modules/intro";

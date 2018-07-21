@@ -10,4 +10,6 @@ $regularFont: vazir;
 
 
 // colors
-$hoverButtonColor: #ed474a;
+$themeColor: #ed474a;
+$hoverButtonColor: $themeColor;
+$linkColor: $themeColor;

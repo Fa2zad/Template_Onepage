@@ -1,0 +1,74 @@
+//-----------------------------------//
+//               Slider              //
+//       Called by _main.scss        //
+//-----------------------------------//
+.slider_container{
+    background-color: #c57373;
+    height: 800px;
+
+    .slider-bar{
+        height: 5px;
+        width: 80%;
+        background: rgba(#fff, 0.5);
+        position: absolute;
+    }
+
+    >ul{
+        list-style-type: none;
+        padding: 0px;
+        >li{
+            height: 800px;
+            overflow: hidden;
+            position: absolute;
+            img.slider-background{
+                height: 100%;
+                width: 100%;
+            }
+            .slider-content{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                padding: 0 90px;
+                margin-top: -610px;
+
+                >div{
+                    width: calc(50% - 20px);
+                    justify-content: center;
+                    flex-direction: column;
+                    margin: 25px 10px;
+                    img{
+                        width: max-content;
+                    }
+
+                }
+                .slider-caption{
+                    text-align: left;
+                    color: white;
+                    line-height: 38px;
+                    padding-top: 22px;
+                    h2{
+                        font-size: 38px;
+                    }
+                    hr{
+                        border: 1px solid white;
+                        width: 99px;
+                        margin-left: -1px;
+                        
+                    }
+
+                    ul {
+                        list-style-type: none;
+                        list-style-position: inside;
+                        padding: 0px;
+                        li{
+                            span{
+                                font-size: 20px;
+                                margin-left: 10px;
+                            }
+                        } 
+                    }
+                }//.slider-caption
+            }//.slider-content
+        }//li
+    }//ul
+}//.slider_container

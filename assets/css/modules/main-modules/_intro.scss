@@ -1,0 +1,52 @@
+//-----------------------------------//
+//               intro               //
+//       Called by _main.scss        //
+//-----------------------------------//
+.intro__container{
+    padding: 60px;
+
+
+
+    .row{
+        >div{
+            float: right;
+        }
+    }
+
+
+    figure{
+        
+        div{
+            background-color: #efefef;
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+            border-radius: 50%;
+            padding-top: 21%;
+            transition-duration: 500ms;
+
+            img{
+                vertical-align: middle;
+                transition-duration: 1000ms;
+            }
+            &:hover{
+                box-shadow: inset 0px 0px 0px 100px lighten($linkColor, 20%);
+                img{
+                    transform: rotateY(360deg); 
+                }
+            }
+        }
+        
+        figcaption{
+            margin-top: 27px;
+            hr{
+                width: 40px;
+                border-top: 2px solid #343434;
+            }
+            p{
+                line-height: 24px;
+            }
+            
+        }
+    }
+}

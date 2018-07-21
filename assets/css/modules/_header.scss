@@ -39,8 +39,10 @@
             font-size: 17px;
             
             &:hover{
+                text-shadow: unset;
+
                 span{
-                    color: #ed474a;
+                    color: $themeColor;
                 }
             }
         }
@@ -70,9 +72,11 @@
                     }
                     &:hover{
                         background-color: unset;
+                        text-shadow: unset;
+
                         span{
-                            color: #ed474a;
-                            border-bottom: 2px solid #ed474a;
+                            color: $themeColor;
+                            border-bottom: 2px solid $themeColor;
                         }
                     }
                 
@@ -82,8 +86,8 @@
                     a{
                         
                         span{
-                            color: #ed474a;
-                            border-bottom: 2px solid #ed474a;
+                            color: $themeColor;
+                            border-bottom: 2px solid $themeColor;
 
                         }
                     }
@@ -111,9 +115,9 @@
                 margin-top: 10px;
                 
                 &:hover{
+                    text-shadow: unset;
                     span{
-                        
-                        color: #ed474a;
+                        color: $themeColor;
                     }
                 }
                 &:hover{
