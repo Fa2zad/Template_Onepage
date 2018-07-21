@@ -33,17 +33,17 @@ body{
             border-radius: 3px;
             padding: 12px 26px;
             border: none;
-            &:hover, :focus, :active{
+            &:visited{
+                color: white;
+            }
+            &:hover, :focus{
                 animation: pulse 0.8s;
                 box-shadow: 0 0 10px 30px rgba(#fff,0);
                 background-color: $hoverButtonColor;
-                color: white;
             }
             @keyframes pulse {
                 0% {
                     box-shadow: 0 0 0 0 $hoverButtonColor;
-                color: white;
-
                 }
             }
         }

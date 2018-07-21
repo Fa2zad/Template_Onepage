@@ -170,20 +170,22 @@ body .theme-button a {
   border: none;
 }
 
-body .theme-button a:hover, body .theme-button a :focus, body .theme-button a :active {
+body .theme-button a:visited {
+  color: white;
+}
+
+body .theme-button a:hover, body .theme-button a :focus {
   -webkit-animation: pulse 0.8s;
           animation: pulse 0.8s;
   -webkit-box-shadow: 0 0 10px 30px rgba(255, 255, 255, 0);
           box-shadow: 0 0 10px 30px rgba(255, 255, 255, 0);
   background-color: #ed474a;
-  color: white;
 }
 
 @-webkit-keyframes pulse {
   0% {
     -webkit-box-shadow: 0 0 0 0 #ed474a;
             box-shadow: 0 0 0 0 #ed474a;
-    color: white;
   }
 }
 
@@ -191,7 +193,6 @@ body .theme-button a:hover, body .theme-button a :focus, body .theme-button a :a
   0% {
     -webkit-box-shadow: 0 0 0 0 #ed474a;
             box-shadow: 0 0 0 0 #ed474a;
-    color: white;
   }
 }
 
@@ -363,20 +364,22 @@ body .theme-button a {
   border: none;
 }
 
-body .theme-button a:hover, body .theme-button a :focus, body .theme-button a :active {
+body .theme-button a:visited {
+  color: white;
+}
+
+body .theme-button a:hover, body .theme-button a :focus {
   -webkit-animation: pulse 0.8s;
           animation: pulse 0.8s;
   -webkit-box-shadow: 0 0 10px 30px rgba(255, 255, 255, 0);
           box-shadow: 0 0 10px 30px rgba(255, 255, 255, 0);
   background-color: #ed474a;
-  color: white;
 }
 
 @keyframes pulse {
   0% {
     -webkit-box-shadow: 0 0 0 0 #ed474a;
             box-shadow: 0 0 0 0 #ed474a;
-    color: white;
   }
 }
 
