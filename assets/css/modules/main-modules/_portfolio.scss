@@ -1,0 +1,26 @@
+//-----------------------------------//
+//             Portfolio             //
+//       Called by _main.scss        //
+//-----------------------------------//
+.portfolio__container{
+    text-align: center;
+
+    div:nth-child(1){
+        padding-top: 20px;
+        .theme-button, .theme-button-colored{
+            margin: 10px 3px;
+            a{
+                border-radius: 0px;
+            }
+        }
+    }
+    div:nth-child(2){
+        padding-top: 10px;
+        figure{
+            img{
+                width: 25%;
+                float: right;
+            }
+        }
+    }
+}
