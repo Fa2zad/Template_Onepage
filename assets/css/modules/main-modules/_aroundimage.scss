@@ -15,16 +15,26 @@
 
             &:nth-child(2){
                 text-align: right;
+                p {
+                    margin: 0 0 28px;
+                }
             }
 
             &:nth-child(3){
                 img{
-                    width: 300px;
+                    width: 250px;
+                }
+                span{
+                    display: inline-block;
+                    margin-top: 50px;
                 }
             }
 
             &:nth-child(4){
                 text-align: left;
+                p {
+                    margin: 0 0 28px;
+                }
             }
             
             h4{
@@ -34,6 +44,7 @@
                     box-shadow: inset 0px 0px 0px 20px $themeColor;
                     padding: 10px;
                     vertical-align: middle;
+                    font-size: 12px;
                 }
             }
         } 
