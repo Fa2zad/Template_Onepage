@@ -601,23 +601,53 @@ body hr {
   background-color: #222222;
 }
 
-.counter__container .counter-items div {
+.counter__container .counter-items > div {
   float: right;
   text-align: center;
-  padding: 60px 0px;
+  padding: 50px 0px;
 }
 
-.counter__container .counter-items div span {
+.counter__container .counter-items > div span {
   color: white;
 }
 
-.counter__container .counter-items div span:first-child {
+.counter__container .counter-items > div span:first-child {
   color: #ed474a;
   font-size: 34px;
 }
 
-.counter__container .counter-items div hr {
+.counter__container .counter-items > div hr {
   border-color: white;
+}
+
+.tabletslider__container .tableslider-cols {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+}
+
+.tabletslider__container .tableslider-cols > div {
+  float: right;
+}
+
+.tabletslider__container .tableslider-cols > div hr {
+  margin-right: 0px;
+}
+
+.tabletslider__container .tableslider-cols > div:last-child {
+  padding-top: 20px;
+}
+
+.tabletslider__container .tableslider-cols > div:last-child ul {
+  list-style-type: none;
+  padding: 0;
+  line-height: 35px;
+}
+
+.tabletslider__container .tableslider-cols > div:last-child ul li span.glyphicon {
+  color: #ed474a;
+  margin-left: 10px;
 }
 
 body {
@@ -1074,22 +1104,52 @@ body hr {
   background-color: #222222;
 }
 
-.counter__container .counter-items div {
+.counter__container .counter-items > div {
   float: right;
   text-align: center;
-  padding: 60px 0px;
+  padding: 50px 0px;
 }
 
-.counter__container .counter-items div span {
+.counter__container .counter-items > div span {
   color: white;
 }
 
-.counter__container .counter-items div span:first-child {
+.counter__container .counter-items > div span:first-child {
   color: #ed474a;
   font-size: 34px;
 }
 
-.counter__container .counter-items div hr {
+.counter__container .counter-items > div hr {
   border-color: white;
+}
+
+.tabletslider__container .tableslider-cols {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+}
+
+.tabletslider__container .tableslider-cols > div {
+  float: right;
+}
+
+.tabletslider__container .tableslider-cols > div hr {
+  margin-right: 0px;
+}
+
+.tabletslider__container .tableslider-cols > div:last-child {
+  padding-top: 20px;
+}
+
+.tabletslider__container .tableslider-cols > div:last-child ul {
+  list-style-type: none;
+  padding: 0;
+  line-height: 35px;
+}
+
+.tabletslider__container .tableslider-cols > div:last-child ul li span.glyphicon {
+  color: #ed474a;
+  margin-left: 10px;
 }
 /*# sourceMappingURL=style.css.map */

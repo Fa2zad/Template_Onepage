@@ -1,0 +1,31 @@
+//-----------------------------------//
+//            tabletslider           //
+//       Called by _main.scss        //
+//-----------------------------------//
+.tabletslider__container{
+    .tableslider-cols{
+        display: flex;
+        padding: 30px;
+        >div{
+            float: right;
+            hr{
+                margin-right: 0px;
+            }
+            &:last-child{
+                padding-top: 20px;
+                ul{
+                    list-style-type: none;
+                    padding: 0;
+                line-height: 35px;
+
+                    li{
+                        span.glyphicon{
+                            color: $themeColor;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
