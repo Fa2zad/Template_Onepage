@@ -3,7 +3,7 @@
 //       Called by _main.scss        //
 //-----------------------------------//
 .intro__container{
-    padding: 20px;
+    padding: 10px;
 
 
 
@@ -22,15 +22,20 @@
             height: 150px;
             display: inline-block;
             border-radius: 50%;
-            padding-top: 50px;
+            padding-top: 55px;
             transition-duration: 500ms;
+            transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+
 
             img{
                 vertical-align: middle;
                 transition-duration: 1000ms;
+                 transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+                width: 60px;
             }
             &:hover{
-                box-shadow: inset 0px 0px 0px 75px lighten($linkColor, 20%);
+                box-shadow: inset 0px 0px 20px 70px lighten($linkColor, 20%);
                 img{
                     transform: rotateY(360deg); 
                 }
@@ -43,10 +48,12 @@
                 width: 40px;
                 border-top: 2px solid #343434;
                 margin-top: 10px;
+                margin-bottom: 10px;
             }
             p{
                 line-height: 23px;
                 font-size: 13px;
+                margin: 0px;
             }
             
         }

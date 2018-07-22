@@ -340,7 +340,7 @@ body h1 small, body h2 small, body h3 small, body h4 small, body h5 small, body 
 }
 
 .intro__container {
-  padding: 20px;
+  padding: 10px;
 }
 
 .intro__container .row > div {
@@ -353,20 +353,25 @@ body h1 small, body h2 small, body h3 small, body h4 small, body h5 small, body 
   height: 150px;
   display: inline-block;
   border-radius: 50%;
-  padding-top: 50px;
+  padding-top: 55px;
   -webkit-transition-duration: 500ms;
           transition-duration: 500ms;
+  -webkit-transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+          transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 .intro__container figure div img {
   vertical-align: middle;
   -webkit-transition-duration: 1000ms;
           transition-duration: 1000ms;
+  -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+          transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  width: 60px;
 }
 
 .intro__container figure div:hover {
-  -webkit-box-shadow: inset 0px 0px 0px 75px #f6a4a5;
-          box-shadow: inset 0px 0px 0px 75px #f6a4a5;
+  -webkit-box-shadow: inset 0px 0px 20px 70px #f6a4a5;
+          box-shadow: inset 0px 0px 20px 70px #f6a4a5;
 }
 
 .intro__container figure div:hover img {
@@ -382,11 +387,13 @@ body h1 small, body h2 small, body h3 small, body h4 small, body h5 small, body 
   width: 40px;
   border-top: 2px solid #343434;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .intro__container figure figcaption p {
   line-height: 23px;
   font-size: 13px;
+  margin: 0px;
 }
 
 .contentslider__container {
@@ -397,6 +404,7 @@ body h1 small, body h2 small, body h3 small, body h4 small, body h5 small, body 
   list-style-type: none;
   padding: 0px;
   position: relative;
+  height: 300px;
 }
 
 .contentslider__container ul li {
@@ -412,6 +420,7 @@ body h1 small, body h2 small, body h3 small, body h4 small, body h5 small, body 
   width: 100%;
   position: absolute;
   overflow: hidden;
+  height: 300px;
 }
 
 .contentslider__container ul li .contentslider-image {
@@ -426,6 +435,12 @@ body h1 small, body h2 small, body h3 small, body h4 small, body h5 small, body 
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.contentslider__container ul li .contentslider-image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
 }
 
 .contentslider__container ul li .contentslider-text {
@@ -687,7 +702,7 @@ body h1 small, body h2 small, body h3 small, body h4 small, body h5 small, body 
 }
 
 .intro__container {
-  padding: 20px;
+  padding: 10px;
 }
 
 .intro__container .row > div {
@@ -700,20 +715,25 @@ body h1 small, body h2 small, body h3 small, body h4 small, body h5 small, body 
   height: 150px;
   display: inline-block;
   border-radius: 50%;
-  padding-top: 50px;
+  padding-top: 55px;
   -webkit-transition-duration: 500ms;
           transition-duration: 500ms;
+  -webkit-transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+          transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 .intro__container figure div img {
   vertical-align: middle;
   -webkit-transition-duration: 1000ms;
           transition-duration: 1000ms;
+  -webkit-transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+          transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  width: 60px;
 }
 
 .intro__container figure div:hover {
-  -webkit-box-shadow: inset 0px 0px 0px 75px #f6a4a5;
-          box-shadow: inset 0px 0px 0px 75px #f6a4a5;
+  -webkit-box-shadow: inset 0px 0px 20px 70px #f6a4a5;
+          box-shadow: inset 0px 0px 20px 70px #f6a4a5;
 }
 
 .intro__container figure div:hover img {
@@ -729,11 +749,13 @@ body h1 small, body h2 small, body h3 small, body h4 small, body h5 small, body 
   width: 40px;
   border-top: 2px solid #343434;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .intro__container figure figcaption p {
   line-height: 23px;
   font-size: 13px;
+  margin: 0px;
 }
 
 .contentslider__container {
@@ -744,6 +766,7 @@ body h1 small, body h2 small, body h3 small, body h4 small, body h5 small, body 
   list-style-type: none;
   padding: 0px;
   position: relative;
+  height: 300px;
 }
 
 .contentslider__container ul li {
@@ -759,6 +782,7 @@ body h1 small, body h2 small, body h3 small, body h4 small, body h5 small, body 
   width: 100%;
   position: absolute;
   overflow: hidden;
+  height: 300px;
 }
 
 .contentslider__container ul li .contentslider-image {
@@ -773,6 +797,12 @@ body h1 small, body h2 small, body h3 small, body h4 small, body h5 small, body 
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.contentslider__container ul li .contentslider-image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
 }
 
 .contentslider__container ul li .contentslider-text {
