@@ -570,6 +570,19 @@ body hr {
 .portfolio__container div:nth-child(2) figure img {
   width: 25%;
   float: right;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+.portfolio__container div:nth-child(2) figure img:hover {
+  -webkit-filter: contrast(200%) grayscale(1) drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.9));
+          filter: contrast(200%) grayscale(1) drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.9));
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+.counter__container {
+  background-color: #222222;
 }
 
 body {
@@ -995,5 +1008,18 @@ body hr {
 .portfolio__container div:nth-child(2) figure img {
   width: 25%;
   float: right;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+.portfolio__container div:nth-child(2) figure img:hover {
+  -webkit-filter: contrast(200%) grayscale(1) drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.9));
+          filter: contrast(200%) grayscale(1) drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.9));
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+
+.counter__container {
+  background-color: #222222;
 }
 /*# sourceMappingURL=style.css.map */
