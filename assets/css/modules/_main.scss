@@ -113,7 +113,7 @@ body{
         color: #3e4041;
         small{
             position: absolute;
-            top: -120%; 
+            top: -100%; 
             left: 0;
             right: 0;
             //text-align: center
@@ -123,6 +123,7 @@ body{
         border-top: 2px solid $themeColor;
         width: 40px;
         margin-top: 10px;
+        margin-bottom: 13px;
     }
 }
 
@@ -150,6 +151,11 @@ body{
 @import "main-modules/counter";
 //tabletslider
 @import "main-modules/tabletslider";
+
+//-----------------------------------//
+//           aroundimage             //
+//-----------------------------------//
+@import "main-modules/aroundimage";
 
 
 

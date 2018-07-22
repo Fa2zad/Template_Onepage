@@ -35,7 +35,7 @@
                 width: 60px;
             }
             &:hover{
-                box-shadow: inset 0px 0px 20px 70px lighten($linkColor, 20%);
+                box-shadow: inset 0px 0px 20px 70px rgba($themeColor, 0.3);
                 img{
                     transform: rotateY(360deg); 
                 }

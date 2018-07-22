@@ -1,0 +1,41 @@
+//-----------------------------------//
+//            aroundimage            //
+//       Called by _main.scss        //
+//-----------------------------------//
+.aroundimage__container{
+    background-color: #eeeeee;
+    text-align: center;
+    .aroundimage-cols{
+        margin-top: 40px;
+        >div{
+            float: right;
+            &:nth-child(1){
+                padding-bottom: 15px;
+            }
+
+            &:nth-child(2){
+                text-align: right;
+            }
+
+            &:nth-child(3){
+                img{
+                    width: 300px;
+                }
+            }
+
+            &:nth-child(4){
+                text-align: left;
+            }
+            
+            h4{
+                span{
+                    color: white;
+                    border-radius: 50%;
+                    box-shadow: inset 0px 0px 0px 20px $themeColor;
+                    padding: 10px;
+                    vertical-align: middle;
+                }
+            }
+        } 
+    }
+}
