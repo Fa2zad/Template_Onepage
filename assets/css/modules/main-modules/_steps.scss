@@ -1,0 +1,21 @@
+//-----------------------------------//
+//               steps               //
+//       Called by _main.scss        //
+//-----------------------------------//
+.steps__container{
+    display: flex;
+    >div{
+        float: right;
+        &:nth-child(1){
+            background-color: transparentize($color: $themeColor, $amount: 0.1);
+            filter: hue-rotate(10deg) brightness(1.2);
+        }
+        &:nth-child(2){
+            background-color: $themeColor;
+        }
+        &:nth-child(3){
+            background-color: transparentize($color: $themeColor, $amount: 0.1);
+            filter: hue-rotate(-4deg) brightness(1.2);
+        }
+    }
+}
