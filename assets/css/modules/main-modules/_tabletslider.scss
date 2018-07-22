@@ -11,6 +11,29 @@
             hr{
                 margin-right: 0px;
             }
+            &:first-child{
+                position: relative;
+                padding-left: 85px;
+                >div{
+                    float: left;
+                    max-width: 291px;
+                    max-height: 385px;
+                    overflow: hidden;
+                    img{
+                        float: left;
+                        margin-left: 23px;
+                        margin-top: 10px;
+                    }
+                }
+                >img{
+                    position: absolute;
+                    left: 0;
+                    top: 0px;
+                    width: 321px;
+                    margin-left: 85px;
+                }
+                
+            }
             &:last-child{
                 padding-top: 20px;
                 ul{
@@ -22,6 +45,7 @@
                         span.glyphicon{
                             color: $themeColor;
                             margin-left: 10px;
+                            font-size: 16px;
                         }
                     }
                 }
