@@ -15,18 +15,33 @@
         }
     }
     div:nth-child(2){
-        padding-top: 10px;
-        figure{
-            img{
-                width: 25%;
-                float: right;
-                transition-duration: 500ms;
+        margin-top: 10px;
+        background-color: #222222;
+        display: flex;
 
-                &:hover{
-                    filter: contrast(200%) grayscale(1) drop-shadow(0px 0px 5px rgba(0,0,0,0.9));
-                    transition-duration: 500ms;
+        figure{
+            ul{
+                list-style-type: none;
+                padding: 0;
+                li{
+                    width: 25%;
+                    //overflow: hidden;
+                    float: right;
+
+                    img{
+                        transition-duration: 500ms;
+                        width: 100%;
+        
+                        &:hover{
+                            filter: contrast(200%) grayscale(1) drop-shadow(0px 0px 5px rgba(0,0,0,0.9));
+                            transition-duration: 500ms;
+                            transform: rotate(2deg);
+                            z-index: 1;
+                        }
+                    }
                 }
             }
+            
         }
     }
 }

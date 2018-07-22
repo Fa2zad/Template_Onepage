@@ -4,5 +4,23 @@
 //-----------------------------------//
 .counter__container{
     background-color: #222222;
-    
+    .counter-items{
+        div{
+            float: right;
+            text-align: center;
+            padding: 60px 0px;
+            span{
+                color: white;
+
+                &:first-child{
+                    color: $themeColor;
+                    font-size: 34px;
+                }
+            }
+
+            hr{
+                border-color: white;
+            }
+        }
+    }
 }
