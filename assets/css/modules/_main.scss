@@ -106,6 +106,31 @@ body{
             }
         }
     }
+    //theme transparent button
+    .theme-button-transparent{ 
+        padding: 20px 0;
+        a{
+            color: white;
+            font-size: 13px;
+            background-color: none;
+            border-radius: 1px;
+            padding: 12px 26px;
+            border: 1px solid white;
+            &:visited{
+                color: white;
+            }
+            &:hover, :focus{
+                animation: pulse 0.8s;
+                box-shadow: 0 0 10px 30px rgba(#fff,0);
+                background-color: $buttonColor;
+            }
+            @keyframes pulse {
+                0% {
+                    box-shadow: 0 0 0 0 $buttonColor;
+                }
+            }
+        }
+    }
 
 
     h1, h2, h3, h4, h5, h6{

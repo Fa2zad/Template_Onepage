@@ -4,8 +4,20 @@
 //-----------------------------------//
 .steps__container{
     display: flex;
+    color: white;
+    h4{
+        color: white;
+        small{
+            color: white;
+        }
+    }
+    hr{
+        border-top-color: white;
+        margin-right: 0px;
+    }
     >div{
         float: right;
+        padding: 48px;
         &:nth-child(1){
             background-color: transparentize($color: $themeColor, $amount: 0.1);
             filter: hue-rotate(10deg) brightness(1.2);
