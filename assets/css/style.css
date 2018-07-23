@@ -834,6 +834,32 @@ body hr {
   border-top-color: #bbbbbb;
 }
 
+.parallax__container {
+  background-image: url("../images/parallex.jpg");
+  background-position-x: -200px;
+  background-attachment: fixed;
+  height: 250px;
+  text-align: center;
+  color: #fefefe;
+  padding-top: 20px;
+}
+
+.parallax__container h3 {
+  color: #fefefe;
+}
+
+.parallax__container h3 small {
+  color: #fefefe;
+}
+
+.parallax__container hr {
+  border-top-color: #fefefe;
+}
+
+.parallax__container figure img {
+  margin: 0px 20px;
+}
+
 body {
   color: #5e5e5e;
   font-size: 13px;
@@ -1519,5 +1545,31 @@ body hr {
 
 .ourteam__container .ourteam-cols > div figure figcaption hr {
   border-top-color: #bbbbbb;
+}
+
+.parallax__container {
+  background-image: url("../images/parallex.jpg");
+  background-position-x: -200px;
+  background-attachment: fixed;
+  height: 250px;
+  text-align: center;
+  color: #fefefe;
+  padding-top: 20px;
+}
+
+.parallax__container h3 {
+  color: #fefefe;
+}
+
+.parallax__container h3 small {
+  color: #fefefe;
+}
+
+.parallax__container hr {
+  border-top-color: #fefefe;
+}
+
+.parallax__container figure img {
+  margin: 0px 20px;
 }
 /*# sourceMappingURL=style.css.map */

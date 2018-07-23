@@ -1,0 +1,28 @@
+//-----------------------------------//
+//             parallax              //
+//       Called by _main.scss        //
+//-----------------------------------//
+.parallax__container{
+    background-image: url('../images/parallex.jpg');
+    background-position-x: -200px;
+    background-attachment: fixed;
+    height: 250px;
+
+    text-align: center;
+    color: #fefefe;
+    padding-top: 20px;
+    h3{
+        color: #fefefe;
+        small{
+            color: #fefefe;
+        }
+    }
+    hr{
+        border-top-color: #fefefe;
+    }
+    figure{
+        img{
+            margin: 0px 20px;
+        }
+    }
+}
