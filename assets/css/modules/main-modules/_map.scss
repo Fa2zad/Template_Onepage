@@ -1,0 +1,101 @@
+//-----------------------------------//
+//                 map               //
+//       Called by _main.scss        //
+//-----------------------------------//
+.map__container{
+    height: 400px;
+    overflow: hidden;
+    .map-cols{
+        display: inline-block;
+        div:nth-child(1){
+            background-color: #e5e3df;
+            height: 400px; //map height
+        }
+        div:nth-child(2){
+            height: 400px;
+            box-shadow: 3px 0px 12px 0px rgba(0, 0, 0, 0.6);
+            padding:40px;
+
+            .map-triangleshadow {
+                position: absolute;
+                width: 0;
+                height: 0;
+                top: 85px;
+                left: -10px;
+                border: 10px solid white;
+                transform: rotate(45deg);
+                box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.6);
+            }
+            .map-triangle {
+                position: absolute;
+                width: 0;
+                height: 0;
+                top: 75px;
+                left: -9px;
+                border: 20px solid white;
+                transform: rotate(45deg);
+            }
+            .map-text{
+                div{
+                    float: right;
+                    h5{
+                        span{
+                            color: white;
+                            border-radius: 50%;
+                            box-shadow: inset 0px 0px 0px 20px $themeColor;
+                            padding: 12px;
+                            vertical-align: middle;
+                            font-size: 10px;
+                            float: left;
+                            margin-top: -10px;
+                        }
+                    }
+                }
+                hr{
+                    margin-right: 0px;
+                }
+                div:last-child{
+                    border-top: 1px dashed #aaaaaa;
+                    ul{
+                        list-style-type: none;
+                        padding: 0px;
+                        margin: 20px -20px 0px 0px;
+                        display: inline-block;
+                        li{
+                            float: right;
+                            margin: 3px;
+                            a{
+                                width: 24px;
+                                height: 24px;
+                                display: block;
+                                background: url('../images/social-address.jpg');
+                                background-size: 203px;
+                                background-repeat: no-repeat;
+                            }
+                            
+                            
+                            &:nth-child(1) a{
+                                background-position: -180px;
+                            }
+                            &:nth-child(2) a{
+                                background-position: -150px;
+                            }
+                            &:nth-child(3) a{
+                                background-position: -120px;
+                            }
+                            &:nth-child(4) a{
+                                background-position: -90px;
+                            }
+                            &:nth-child(5) a{
+                                background-position: -60px;
+                            }
+                            &:nth-child(6) a{
+                                background-position: -30px;
+                            }
+                        }
+                    }
+                }
+            }//.map-text
+        }//div:nth-child(2)
+    }//.map-cols
+}//.map__container

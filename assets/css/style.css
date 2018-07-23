@@ -860,6 +860,120 @@ body hr {
   margin: 0px 20px;
 }
 
+.map__container {
+  height: 400px;
+  overflow: hidden;
+}
+
+.map__container .map-cols {
+  display: inline-block;
+}
+
+.map__container .map-cols div:nth-child(1) {
+  background-color: #e5e3df;
+  height: 400px;
+}
+
+.map__container .map-cols div:nth-child(2) {
+  height: 400px;
+  -webkit-box-shadow: 3px 0px 12px 0px rgba(0, 0, 0, 0.6);
+          box-shadow: 3px 0px 12px 0px rgba(0, 0, 0, 0.6);
+  padding: 40px;
+}
+
+.map__container .map-cols div:nth-child(2) .map-triangleshadow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 85px;
+  left: -10px;
+  border: 10px solid white;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.6);
+}
+
+.map__container .map-cols div:nth-child(2) .map-triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 75px;
+  left: -9px;
+  border: 20px solid white;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.map__container .map-cols div:nth-child(2) .map-text div {
+  float: right;
+}
+
+.map__container .map-cols div:nth-child(2) .map-text div h5 span {
+  color: white;
+  border-radius: 50%;
+  -webkit-box-shadow: inset 0px 0px 0px 20px #ed484b;
+          box-shadow: inset 0px 0px 0px 20px #ed484b;
+  padding: 12px;
+  vertical-align: middle;
+  font-size: 10px;
+  float: left;
+  margin-top: -10px;
+}
+
+.map__container .map-cols div:nth-child(2) .map-text hr {
+  margin-right: 0px;
+}
+
+.map__container .map-cols div:nth-child(2) .map-text div:last-child {
+  border-top: 1px dashed #aaaaaa;
+}
+
+.map__container .map-cols div:nth-child(2) .map-text div:last-child ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 20px -20px 0px 0px;
+  display: inline-block;
+}
+
+.map__container .map-cols div:nth-child(2) .map-text div:last-child ul li {
+  float: right;
+  margin: 3px;
+}
+
+.map__container .map-cols div:nth-child(2) .map-text div:last-child ul li a {
+  width: 24px;
+  height: 24px;
+  display: block;
+  background: url("../images/social-address.jpg");
+  background-size: 203px;
+  background-repeat: no-repeat;
+}
+
+.map__container .map-cols div:nth-child(2) .map-text div:last-child ul li:nth-child(1) a {
+  background-position: -180px;
+}
+
+.map__container .map-cols div:nth-child(2) .map-text div:last-child ul li:nth-child(2) a {
+  background-position: -150px;
+}
+
+.map__container .map-cols div:nth-child(2) .map-text div:last-child ul li:nth-child(3) a {
+  background-position: -120px;
+}
+
+.map__container .map-cols div:nth-child(2) .map-text div:last-child ul li:nth-child(4) a {
+  background-position: -90px;
+}
+
+.map__container .map-cols div:nth-child(2) .map-text div:last-child ul li:nth-child(5) a {
+  background-position: -60px;
+}
+
+.map__container .map-cols div:nth-child(2) .map-text div:last-child ul li:nth-child(6) a {
+  background-position: -30px;
+}
+
 body {
   color: #5e5e5e;
   font-size: 13px;
@@ -1571,5 +1685,119 @@ body hr {
 
 .parallax__container figure img {
   margin: 0px 20px;
+}
+
+.map__container {
+  height: 400px;
+  overflow: hidden;
+}
+
+.map__container .map-cols {
+  display: inline-block;
+}
+
+.map__container .map-cols div:nth-child(1) {
+  background-color: #e5e3df;
+  height: 400px;
+}
+
+.map__container .map-cols div:nth-child(2) {
+  height: 400px;
+  -webkit-box-shadow: 3px 0px 12px 0px rgba(0, 0, 0, 0.6);
+          box-shadow: 3px 0px 12px 0px rgba(0, 0, 0, 0.6);
+  padding: 40px;
+}
+
+.map__container .map-cols div:nth-child(2) .map-triangleshadow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 85px;
+  left: -10px;
+  border: 10px solid white;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.6);
+}
+
+.map__container .map-cols div:nth-child(2) .map-triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 75px;
+  left: -9px;
+  border: 20px solid white;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.map__container .map-cols div:nth-child(2) .map-text div {
+  float: right;
+}
+
+.map__container .map-cols div:nth-child(2) .map-text div h5 span {
+  color: white;
+  border-radius: 50%;
+  -webkit-box-shadow: inset 0px 0px 0px 20px #ed484b;
+          box-shadow: inset 0px 0px 0px 20px #ed484b;
+  padding: 12px;
+  vertical-align: middle;
+  font-size: 10px;
+  float: left;
+  margin-top: -10px;
+}
+
+.map__container .map-cols div:nth-child(2) .map-text hr {
+  margin-right: 0px;
+}
+
+.map__container .map-cols div:nth-child(2) .map-text div:last-child {
+  border-top: 1px dashed #aaaaaa;
+}
+
+.map__container .map-cols div:nth-child(2) .map-text div:last-child ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 20px -20px 0px 0px;
+  display: inline-block;
+}
+
+.map__container .map-cols div:nth-child(2) .map-text div:last-child ul li {
+  float: right;
+  margin: 3px;
+}
+
+.map__container .map-cols div:nth-child(2) .map-text div:last-child ul li a {
+  width: 24px;
+  height: 24px;
+  display: block;
+  background: url("../images/social-address.jpg");
+  background-size: 203px;
+  background-repeat: no-repeat;
+}
+
+.map__container .map-cols div:nth-child(2) .map-text div:last-child ul li:nth-child(1) a {
+  background-position: -180px;
+}
+
+.map__container .map-cols div:nth-child(2) .map-text div:last-child ul li:nth-child(2) a {
+  background-position: -150px;
+}
+
+.map__container .map-cols div:nth-child(2) .map-text div:last-child ul li:nth-child(3) a {
+  background-position: -120px;
+}
+
+.map__container .map-cols div:nth-child(2) .map-text div:last-child ul li:nth-child(4) a {
+  background-position: -90px;
+}
+
+.map__container .map-cols div:nth-child(2) .map-text div:last-child ul li:nth-child(5) a {
+  background-position: -60px;
+}
+
+.map__container .map-cols div:nth-child(2) .map-text div:last-child ul li:nth-child(6) a {
+  background-position: -30px;
 }
 /*# sourceMappingURL=style.css.map */
