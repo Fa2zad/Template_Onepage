@@ -1,0 +1,27 @@
+//-----------------------------------//
+//               steps               //
+//       Called by _main.scss        //
+//-----------------------------------//
+.ourteam__container{
+    text-align: center;
+    .ourteam-cols{
+        margin-top: 20px;
+        >div{
+            float: right;
+            figure{
+                img{
+                    width: 150px;
+                    height: 150px;
+                    border: 1px solid #bababa;
+                }
+                figcaption{
+                    padding-top: 18px;
+
+                    hr{
+                        border-top-color: #bbbbbb;
+                    }
+                }
+            }//figure
+        }//>div
+    }//.ourteam-cols
+}//.ourteam__container

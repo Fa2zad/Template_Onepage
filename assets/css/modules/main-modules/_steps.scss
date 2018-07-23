@@ -17,7 +17,12 @@
     }
     >div{
         float: right;
-        padding: 48px;
+        padding: 20px 40px 10px 40px;
+        span.theme-button-transparent{
+            a{
+                padding: 8px 26px;
+            }
+        }
         &:nth-child(1){
             background-color: transparentize($color: $themeColor, $amount: 0.1);
             filter: hue-rotate(10deg) brightness(1.2);

@@ -59,7 +59,7 @@ body{
             color: white;
             font-size: 13px;
             background-color: #333333;
-            border-radius: 3px;
+            border-radius: 2px;
             padding: 12px 26px;
             border: none;
             &:visited, :active{
@@ -88,7 +88,7 @@ body{
             color: white;
             font-size: 13px;
             background-color: $buttonColor;
-            border-radius: 3px;
+            border-radius: 2px;
             padding: 12px 26px;
             border: none;
             &:visited{
@@ -112,8 +112,8 @@ body{
         a{
             color: white;
             font-size: 13px;
-            background-color: none;
-            border-radius: 1px;
+            background-color: unset;
+            border-radius: 2px;
             padding: 12px 26px;
             border: 1px solid white;
             &:visited{
@@ -186,4 +186,4 @@ body{
 //         steps & ourteam           //
 //-----------------------------------//
 @import "main-modules/steps";
-
+@import "main-modules/ourteam";
