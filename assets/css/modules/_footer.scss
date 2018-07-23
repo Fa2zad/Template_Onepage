@@ -1,0 +1,18 @@
+.footer__container{
+    background-color: #262626;
+    section:first-child{
+        .footer-cols{
+            >div{
+                float: right;
+            }
+        }
+    }
+    section:last-child{
+        background: #202020;
+        .footer-cols{
+            >div{
+                float: right;
+            }
+        }
+    }
+}
