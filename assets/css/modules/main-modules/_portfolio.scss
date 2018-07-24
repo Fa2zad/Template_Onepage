@@ -6,16 +6,20 @@
     text-align: center;
 
     div:nth-child(1){
-        padding-top: 20px;
+        padding-top: 60px;
+        p{
+            margin: 40px 40px 48px 40px;
+        }
         .theme-button, .theme-button-colored{
             margin: 10px 3px;
             a{
                 border-radius: 0px;
+                padding: 14px 40px;
             }
         }
     }
     div:nth-child(2){
-        margin-top: 10px;
+        margin-top: 43px;
         background-color: #222222;
         display: flex;
 
@@ -25,17 +29,18 @@
                 padding: 0;
                 li{
                     width: 25%;
-                    //overflow: hidden;
                     float: right;
-
+                    overflow: hidden;
                     img{
                         transition-duration: 500ms;
                         width: 100%;
         
                         &:hover{
-                            filter: contrast(200%) grayscale(1) drop-shadow(0px 0px 5px rgba(0,0,0,0.9));
-                            transition-duration: 500ms;
-                            transform: rotate(2deg);
+                            filter: contrast(200%) grayscale(1);
+                            transition-duration: 800ms;
+                            transform: rotate(1deg);
+                            width: 105%;
+                            margin: -6px -6px 0px 0px;
                             z-index: 1;
                         }
                     }

@@ -3,7 +3,7 @@
 //       Called by _main.scss        //
 //-----------------------------------//
 .intro__container{
-    padding: 10px;
+    padding: 60px;
 
 
 
@@ -18,11 +18,11 @@
         
         div{
             background-color: #efefef;
-            width: 150px;
-            height: 150px;
+            width: 200px;
+            height: 200px;
             display: inline-block;
             border-radius: 50%;
-            padding-top: 55px;
+            padding-top: 75px;
             transition-duration: 500ms;
             transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
 
@@ -31,11 +31,9 @@
                 vertical-align: middle;
                 transition-duration: 1000ms;
                  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-
-                width: 60px;
             }
             &:hover{
-                box-shadow: inset 0px 0px 20px 70px rgba($themeColor, 0.3);
+                box-shadow: inset 0px 0px 20px 100px rgba($themeColor, 0.3);
                 img{
                     transform: rotateY(360deg); 
                 }
@@ -43,17 +41,14 @@
         }
         
         figcaption{
-            margin-top: 40px;
+            margin-top: 50px;
             hr{
-                width: 40px;
                 border-top: 2px solid #343434;
-                margin-top: 10px;
-                margin-bottom: 10px;
             }
             p{
                 line-height: 23px;
                 font-size: 13px;
-                margin: 0px;
+                margin: 0px 0px 10px 0px;
             }
             
         }

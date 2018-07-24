@@ -8,13 +8,14 @@
         >div{
             float: right;
             text-align: center;
-            padding: 50px 0px;
+            padding: 95px 0px;
             span{
                 color: white;
+                font-size: 16px;
 
                 &:first-child{
                     color: $themeColor;
-                    font-size: 34px;
+                    font-size: 44px;
                 }
             }
 

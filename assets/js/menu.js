@@ -6,7 +6,7 @@ var Menu = (function () {
     var headerMenu = $(".header__container .header-menu");
   
     /* =================== private methods ================= */
-    // cache DOM elements
+    // searchIconClick elements
     function searchIconClick() {
       searchIcon.on("click", function () {
         alert('ok');

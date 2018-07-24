@@ -8,16 +8,13 @@
         list-style-type: none;
         padding: 0px;
         position: relative;
-        height: 300px;
         
         li{
             display: flex;
             flex-wrap: wrap;
             flex-direction: row;
             width: 100%;
-            position: absolute;
             overflow: hidden;
-            height: 300px;
             
             .contentslider-image{
                 display: flex; 
@@ -59,17 +56,15 @@
                 >div{
                     z-index: 1;
                     width: 100%;
-                
-                    padding: 20px 21% 20px 8%;
+                    padding: 20px 20% 20px 8%;
 
                     hr{
                         margin-right: 0px;
-                        margin-top: 10px;
-                        margin-bottom: 20px;
                     }
                     p{
                         line-height: 30px;
-                        font-size: 13px;                        
+                        font-size: 13px; 
+                        margin-bottom: 25px;                       
                     }
                     .theme-button a, .theme-button-colored a{
                         padding: 15px 30px;

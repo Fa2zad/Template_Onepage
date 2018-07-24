@@ -5,7 +5,7 @@
 .tabletslider__container{
     .tableslider-cols{
         display: flex;
-        padding: 30px;
+        padding: 70px 30px 50px;
         >div{
             float: right;
             padding-bottom: 25px;
@@ -14,15 +14,15 @@
             }
             &:first-child{
                 position: relative;
-                padding-left: 85px;
+                margin-top: 23px;
                 >div{
                     float: left;
-                    max-width: 291px;
-                    max-height: 385px;
+                    max-width: 58%;
+                    max-height: 456px;
+                    margin-left: 25%;
                     overflow: hidden;
                     img{
                         float: left;
-                        margin-left: 23px;
                         margin-top: 10px;
                     }
                 }
@@ -30,17 +30,20 @@
                     position: absolute;
                     left: 0;
                     top: 0px;
-                    width: 321px;
-                    margin-left: 85px;
+                    margin-left: 22%;
                 }
                 
             }
             &:last-child{
                 padding-top: 20px;
+                p{
+                    margin: 35px 0px 20px;
+                    line-height: 23px;
+                }
                 ul{
                     list-style-type: none;
                     padding: 0;
-                line-height: 35px;
+                    line-height: 35px;
 
                     li{
                         span.glyphicon{
@@ -48,6 +51,12 @@
                             margin-left: 10px;
                             font-size: 16px;
                         }
+                    }
+                }
+                span{
+                    a{
+                        margin: 24px 0;
+                        padding: 17px 32px;
                     }
                 }
             }
