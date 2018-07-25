@@ -1,27 +1,40 @@
 //-----------------------------------//
-//               steps               //
+//              ourteam              //
 //       Called by _main.scss        //
 //-----------------------------------//
 .ourteam__container{
+    padding: 50px 0px 40px;
     text-align: center;
     .ourteam-cols{
         margin-top: 20px;
         >div{
             float: right;
+            padding: 17px;
+            
             figure{
                 img{
-                    width: 150px;
-                    height: 150px;
+                    width: 200px;
+                    height: 200px;
                     border: 1px solid #bababa;
                 }
                 figcaption{
-                    padding-top: 18px;
+                    padding-top: 45px;
 
                     hr{
                         border-top-color: #bbbbbb;
                     }
                 }
             }//figure
+
+            p{
+                line-height: 25px;
+            }
+
+            &:nth-child(1){
+                hr{
+                    margin-bottom: 35px;
+                }
+            }
         }//>div
     }//.ourteam-cols
 }//.ourteam__container

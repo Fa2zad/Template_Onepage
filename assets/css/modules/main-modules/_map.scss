@@ -3,18 +3,19 @@
 //       Called by _main.scss        //
 //-----------------------------------//
 .map__container{
-    height: 400px;
     overflow: hidden;
+    height: 780px;
     .map-cols{
         display: inline-block;
         div:nth-child(1){
             background-color: #e5e3df;
-            height: 400px; //map height
+            height: 780px;
         }
         div:nth-child(2){
-            height: 400px;
+            height: 780px;
+            background-color: #eeeeee;
+            padding: 120px 40px;
             box-shadow: 3px 0px 12px 0px rgba(0, 0, 0, 0.6);
-            padding:40px;
 
             .map-triangleshadow {
                 position: absolute;
@@ -22,7 +23,7 @@
                 height: 0;
                 top: 85px;
                 left: -10px;
-                border: 10px solid white;
+                border: 10px solid #eeeeee;
                 transform: rotate(45deg);
                 box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.6);
             }
@@ -32,20 +33,20 @@
                 height: 0;
                 top: 75px;
                 left: -9px;
-                border: 20px solid white;
+                border: 20px solid #eeeeee;
                 transform: rotate(45deg);
             }
             .map-text{
                 div{
                     float: right;
+                    padding: 20px 0px 20px 30px;
                     h5{
                         span{
                             color: white;
                             border-radius: 50%;
-                            box-shadow: inset 0px 0px 0px 20px $themeColor;
-                            padding: 12px;
+                            box-shadow: inset 0px 0px 0px 26px $themeColor;
+                            padding: 19px;
                             vertical-align: middle;
-                            font-size: 10px;
                             float: left;
                             margin-top: -10px;
                         }
@@ -53,13 +54,22 @@
                 }
                 hr{
                     margin-right: 0px;
+                    margin-bottom: 35px;
+                }
+                hr.map-text-separator{
+                    border-top: 1px dashed #aaaaaa;
+                    width: 100%;
+                    margin: 20px 0px 0px 0px;
+                    display: inline-block;
+                }
+                p{
+                    line-height: 25px;
                 }
                 div:last-child{
-                    border-top: 1px dashed #aaaaaa;
                     ul{
                         list-style-type: none;
                         padding: 0px;
-                        margin: 20px -20px 0px 0px;
+                        margin: 10px 0px 0px 0px;
                         display: inline-block;
                         li{
                             float: right;

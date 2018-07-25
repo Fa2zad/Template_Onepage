@@ -17,10 +17,14 @@
     }
     >div{
         float: right;
-        padding: 20px 40px 10px 40px;
+        padding: 75px 66px 59px 66px;
+        p{
+            line-height: 22px;
+        }
         span.theme-button-transparent{
             a{
-                padding: 8px 26px;
+                padding: 14px 31px;
+                margin-top: 25px;
             }
         }
         &:nth-child(1){

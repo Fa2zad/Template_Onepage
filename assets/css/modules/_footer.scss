@@ -2,53 +2,73 @@
     background-color: #262626;
     color: #a7a7a7;
     section:first-child{
+        padding: 35px 0px 28px;
         .footer-cols{
             >div{
                 float: right;
+                p{
+                    line-height: 25px;
+                    padding: 10px 0;
+                }
                 h3{
                     color: $themeColor;
                 }
+                
                 hr{
                     margin-right: 0px;
-                    border-top-color: white;
+                    border-top-color: #aaaaaa;
                 }
-                p{
-                    padding: 10px 0;
+                figcaption{
+                    a{
+                        span{
+                            box-shadow: inset 0px 0px 0px 10px $linkColor;
+                            padding: 5px;
+                            border-radius: 50%;
+                            font-size: 8px;
+                            color: #fefefe;
+                        }
+                    }
                 }
+                
                 .footer-news{
                     ul{
                         list-style-type: none;
                         padding: 0px;
                         li{
                             margin: 10px;
-                            padding: 20px 0px 40px;
+                            padding: 7px 0px 45px;
                             border-bottom: 1px solid #515151;
                             div{
                                 display: inline-block;
+                                margin-left: 10px;
                                 &:first-child{
                                     span{
                                         display: block;
-                                        width: 45px;
+                                        width: 50px;
                                         text-align: center;
                                         &:first-child{
                                             color: $themeColor;
-                                            background-color: white;
-                                            font-size: large;
-                                            padding: 5px;
+                                            background-color: #fefefe;
+                                            font-size: 24px;
+                                            padding: 3px;
                                         }
                                         &:last-child{
-                                            color: white;
+                                            color: #fefefe;
                                             background-color: $themeColor;
+                                            font-size: 16px;
                                             padding: 1px;
                                         }
                                     }
                                 }
                                 &:last-child{
+                                    margin-top: 5px;
+                                    vertical-align: super;
                                     h5{
                                         color: #a7a7a7;
                                     }
                                     span{
                                         color: $regularColor;
+                                        display: block;
                                     }
                                 }
                             }//div
@@ -62,7 +82,7 @@
         background: #202020;
         .footer-cols{
             display: flex;
-            padding: 25px 0px 20px;
+            padding: 34px 0px 21px;;
             >div{
                 float: right;
                 a{
@@ -81,7 +101,6 @@
                         li{
                             float: left;
                             display: flex;
-                            margin: 3px;
                             a{
                                 width: 15px;
                                 height: 15px;
