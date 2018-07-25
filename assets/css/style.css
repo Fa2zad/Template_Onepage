@@ -158,6 +158,10 @@ body a:hover {
   text-decoration: none;
 }
 
+body img {
+  opacity: 0;
+}
+
 body .theme-button {
   padding: 20px 0;
 }
