@@ -27,9 +27,33 @@ $(window).resize(function () {
 //------------------------------------//
 $(window).scroll(function () {
 
-    //====== FadeIn
+    //====== FadeIn sample
     //ScrollEffect.fadeInOnScroll('img', 1500, 100);
-    ScrollEffect.anyEffectOnScroll('img', 1500, 100,{'opacity': '1', 'background':'red'});
+    //====== any effect sample
+    //ScrollEffect.anyEffectOnScroll('img', 1500, 100, {'opacity': '1', 'margin-top':'100px'});
+
+    //.intro__container 
+    ScrollEffect.anyEffectOnScroll('.intro__container .row >div:nth-child(1)', 500, 100, {'opacity': '1', 'margin-top':'0px'});
+    ScrollEffect.anyEffectOnScroll('.intro__container .row >div:nth-child(2)', 1000, 100, {'opacity': '1', 'margin-top':'0px'});
+    ScrollEffect.anyEffectOnScroll('.intro__container .row >div:nth-child(3)', 1500, 100, {'opacity': '1', 'margin-top':'0px'});
     
+    //.contentslider__container ul li .contentslider-text > div
+    ScrollEffect.fadeInOnScroll('.contentslider__container', 1500, 100);
+    ScrollEffect.anyEffectOnScroll('.contentslider__container .contentslider-text >:last-child', 1000, 1500,{'margin-right': '0px'}, 'easeOutBack');
+
+    //.portfolio__container
+    ScrollEffect.anyEffectOnScroll('.portfolio__container', 1500, 100, {'opacity': '1', 'margin-top':'0px'});
+    ScrollEffect.anyEffectOnScroll('.portfolio__container .container div', 1500, 0, {'opacity': '1', 'margin-top': '0px'}, 'easeInOutCirc');
+
+    //.counter__container
+    ScrollEffect.anyEffectOnScroll('.counter__container .counter-items > div', 4000, 200, {'margin-top': '0px'});
+
+
+    //.tabletslider__container
+    ScrollEffect.anyEffectOnScroll('.tabletslider__container', 1500, 200,{'opacity': '1', 'margin-right': '0px'});
+
+    
+
+
     
 });

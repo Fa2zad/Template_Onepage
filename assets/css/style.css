@@ -158,10 +158,6 @@ body a:hover {
   text-decoration: none;
 }
 
-body img {
-  opacity: 0;
-}
-
 body .theme-button {
   padding: 20px 0;
 }
@@ -1058,6 +1054,38 @@ body hr {
 
 .map__container .map-cols div:nth-child(2) .map-text div:last-child ul li:nth-child(6) a {
   background-position: -30px;
+}
+
+.intro__container .row > div {
+  margin-top: 100px;
+  opacity: 0;
+}
+
+.contentslider__container {
+  opacity: 0;
+}
+
+.contentslider__container .contentslider-text > :last-child {
+  margin-right: -100px;
+}
+
+.portfolio__container {
+  opacity: 0;
+  margin-top: 100px;
+}
+
+.portfolio__container .container div {
+  opacity: 0;
+  margin-top: -100px;
+}
+
+.counter__container .counter-items > div {
+  margin-top: 50px;
+}
+
+.tabletslider__container {
+  opacity: 0;
+  margin-right: -100px;
 }
 
 .footer__container {

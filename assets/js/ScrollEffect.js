@@ -29,40 +29,26 @@ var ScrollEffect = (function () {
     }
 
     // main anyEffectOnScroll method
-    /** @description Animate element to any effect.  
+    /** @description Animate element to any effect. First set reverse css properties to element.
      * @param {string} selector The jquery selector with qoutation.
      * @param {number} duration The duration of animation in ms.  
      * @param {number} distance The top distance of element to be scroll to play aniamation in px.  
-     * @param {string} effect multiple CSS properties, use the following syntax: {"propertyname":"value","propertyname":"value",...}
+     * @param {string} effect Multiple CSS properties, use the following syntax: {"propertyname":"value","propertyname":"value",...}
+     * @param {string} easing Easing function. Default value is 'swing'
+     * 
      */  
-    function anyEffectOnScroll(selector, duration,  distance, effect) {
+    function anyEffectOnScroll(selector, duration,  distance, effect, Easing) {
+      if (Easing == undefined) {
+        Easing  = "swing";
+      }
       $(selector).each( function(i){
           
         var distance_of_object = $(this).position().top + distance;
         var bottom_of_window = $(window).scrollTop() + $(window).height();
         if( bottom_of_window > distance_of_object ){
-        alert(effect.each);
 
-            $(this).animate(effect,duration);
+            $(this).animate(effect,duration, Easing);
           }
-        
-
-
-
-
-          //create a jQuery function named `cssGet`
-          //$.fn.cssGet = function (propertyArray) {
-
-          //create an output variable and limit this function to finding info for only the first element passed into the function
-          //var output = {},
-              //self   = this.eq(0);
-
-          //iterate through the properties passed into the function and add them to the output variable
-          //for (var i = 0, len = propertyArray.length; i < len; i++) {
-             // output[propertyArray[i]] = this.css(propertyArray[i]);
-          //}
-          //return output;
-};
     }); 
   }
   
