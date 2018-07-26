@@ -8,7 +8,7 @@ $(document).ready(function(){
 
     //====== Portfolio
     Portfolio.init();
-    // Counter.init();
+
 
 });
 
@@ -26,6 +26,12 @@ $(window).resize(function () {
 //---------- window scroll -----------//
 //------------------------------------//
 $(window).scroll(function () {
+
+
+    //counter
+
+    Counter.counter('.counter-items >div >span', 8000, 2750);
+
 
     //====== FadeIn sample
     //ScrollEffect.fadeInOnScroll('img', 1500, 100);
@@ -65,5 +71,6 @@ $(window).scroll(function () {
     ScrollEffect.anyEffectOnScroll('.ourteam__container .ourteam-cols div:nth-child(4)', 1500, 300, {'opacity': '1', 'margin-top': '0px'}, 'easeOutBack');
     ScrollEffect.anyEffectOnScroll('.ourteam__container .ourteam-cols div:nth-child(5)', 2000, 300, {'opacity': '1', 'margin-top': '0px'}, 'easeOutBack');
 
+    
     
 });
