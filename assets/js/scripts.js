@@ -33,9 +33,9 @@ $(window).scroll(function () {
     //ScrollEffect.anyEffectOnScroll('img', 1500, 100, {'opacity': '1', 'margin-top':'100px'});
 
     //.intro__container 
-    ScrollEffect.anyEffectOnScroll('.intro__container .row >div:nth-child(1)', 500, 100, {'opacity': '1', 'margin-top':'0px'});
-    ScrollEffect.anyEffectOnScroll('.intro__container .row >div:nth-child(2)', 1000, 100, {'opacity': '1', 'margin-top':'0px'});
-    ScrollEffect.anyEffectOnScroll('.intro__container .row >div:nth-child(3)', 1500, 100, {'opacity': '1', 'margin-top':'0px'});
+    ScrollEffect.anyEffectOnScroll('.intro__container .row >div:nth-child(1)', 500, 200, {'opacity': '1', 'margin-top':'0px'});
+    ScrollEffect.anyEffectOnScroll('.intro__container .row >div:nth-child(2)', 1000, 200, {'opacity': '1', 'margin-top':'0px'});
+    ScrollEffect.anyEffectOnScroll('.intro__container .row >div:nth-child(3)', 1500, 200, {'opacity': '1', 'margin-top':'0px'});
     
     //.contentslider__container ul li .contentslider-text > div
     ScrollEffect.fadeInOnScroll('.contentslider__container', 1500, 100);
